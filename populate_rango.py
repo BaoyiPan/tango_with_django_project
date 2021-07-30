@@ -6,6 +6,7 @@ import django
 django.setup()
 from rango.models import Category, Page
 
+
 # The code below goes through the cats dictionary, then adds each category,
 # and then adds all the associated pages for that category.
 
