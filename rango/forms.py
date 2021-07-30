@@ -30,7 +30,6 @@ class PageForm(forms.ModelForm):
         model = Page
 
         exclude = ('category',)
-       
 
 
 class UserForm(forms.ModelForm):
